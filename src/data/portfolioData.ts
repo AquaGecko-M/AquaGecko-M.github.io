@@ -108,13 +108,13 @@ export const FEATURED_PROJECTS: Project[] = [
   },
   {
     title: "SnapBudget",
-    tagline: "Mobile Cashflow & Expense Management",
-    description: "Native Android application built in Kotlin with Jetpack Compose for offline-first cashflow tracking and family expense reporting.",
+    tagline: "Family Cashflow & Expense Sync Platform",
+    description: "Native Android application built in Kotlin with Jetpack Compose connecting to a REST backend for real-time family expense reporting and allowance approvals.",
     category: "Mobile",
-    tags: ["Kotlin", "Android SDK", "Jetpack Compose", "Material 3", "SQLite"],
+    tags: ["Kotlin", "Android SDK", "Jetpack Compose", "Retrofit", "REST API", "Material 3"],
     metrics: [
-      "100% Native Kotlin architecture with Material 3 UX",
-      "Offline-first local SQLite persistence"
+      "Real-time parent-child transaction sync & allowance flow",
+      "Retrofit & OkHttp client with session authentication"
     ],
     githubUrl: "https://github.com/AquaGecko-M/SnapBudget",
     featured: false,
