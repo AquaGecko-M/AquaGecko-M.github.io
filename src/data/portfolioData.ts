@@ -53,7 +53,7 @@ export const RESEARCH_EXPERIENCE: ResearchItem[] = [
   {
     title: "Multimodal Pain Recognition on Low-Resource Edge Hardware",
     role: "Undergraduate Research Assistant",
-    institution: "Universitas Kristen Krida Waskita (UKRIDA)",
+    institution: "Universitas Kristen Krida Wacana (UKRIDA)",
     period: "2024 — Present",
     summary: "Clinical deep learning fusing facial expressions and acoustic vocal distress for automated triage on low-power edge devices.",
     highlights: [
@@ -209,10 +209,10 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
 ];
 
 export const EDUCATION_DATA = {
-  institution: "Universitas Kristen Krida Waskita (UKRIDA)",
+  institution: "Universitas Kristen Krida Wacana (UKRIDA)",
   degree: "Bachelor of Computer Science / Informatics (S.Kom candidate)",
   location: "Jakarta, Indonesia",
-  period: "2023 — Present (Semester 5)",
+  period: "2024 — Present",
   coursework: [
     "Computer Vision & Digital Image Processing",
     "Expert Systems & Decision Support Systems",
