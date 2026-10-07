@@ -13,7 +13,7 @@ export function App() {
   const [resumeOpen, setResumeOpen] = useState(false);
 
   return (
-    <div className="min-h-screen bg-[#09090b] text-[#f4f4f5] flex flex-col font-sans selection:bg-white selection:text-black">
+    <div className="min-h-screen bg-[#09090b] text-[#f4f4f5] flex flex-col font-sans selection:bg-white selection:text-black relative bg-grid-pattern">
       {/* Top Navbar */}
       <Header onOpenResume={() => setResumeOpen(true)} />
 

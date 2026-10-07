@@ -31,8 +31,8 @@ export const PERSONAL_INFO = {
   preferredName: "Michael",
   handle: "AquaGecko",
   title: "AI Systems • Edge ML Research • Software Engineering",
-  oneLiner: "Informatics student and Google Student Ambassador bridging deep learning research with production Linux, Android, and web systems.",
-  status: "Open to AI & Software Engineering Internships",
+  oneLiner: "Informatics @ UKRIDA • Google Student Ambassador '26. Building edge AI models, Linux kernel automation, and interactive systems.",
+  status: "Open to AI & SWE Internships",
   location: "Jakarta, Indonesia",
   email: "tandeasmichael@gmail.com",
   github: "https://github.com/AquaGecko-M",
@@ -45,7 +45,7 @@ export const PERSONAL_INFO = {
 export const GSA_DATA = {
   title: "Google Student Ambassador",
   cohort: "Indonesia — Batch 2 (2026)",
-  summary: "Selected into the Google Student Ambassador program in Indonesia. Advocating developer technologies, Google Cloud, AI innovations (Gemini ecosystem), and digital literacy across campus communities.",
+  summary: "Selected as Google Student Ambassador in Indonesia. Driving developer initiatives around Google Cloud, Gemini AI, and campus tech impact.",
   postUrl: "https://www.instagram.com/p/DeBLYa0k8Z6/",
 };
 
@@ -55,12 +55,11 @@ export const RESEARCH_EXPERIENCE: ResearchItem[] = [
     role: "Undergraduate Research Assistant",
     institution: "Universitas Kristen Krida Waskita (UKRIDA)",
     period: "2024 — Present",
-    summary: "Conducting clinical multimodal deep learning research fusing facial expression cues with acoustic vocal distress signals for automated triage in rural healthcare environments.",
+    summary: "Clinical deep learning fusing facial expressions and acoustic vocal distress for automated triage on low-power edge devices.",
     highlights: [
-      "Cross-modal attention fusion integrating PyTorch visual feature extractors and TorchAudio distress encoders.",
-      "Developing post-training INT8, ONNX Runtime, and TensorRT quantization pipelines targeting resource-constrained edge hardware.",
-      "Executing rigorous PRISMA Systematic Literature Review methodology across 2,400+ indexed clinical and algorithmic studies.",
-      "Enforcing strict clinical data privacy guardrails with synthetic tensor prototyping."
+      "Cross-modal attention fusion integrating PyTorch vision cues with TorchAudio distress signals.",
+      "Post-training INT8, ONNX Runtime, and TensorRT quantization for rural clinic deployment.",
+      "PRISMA Systematic Review screening over 2,400+ clinical and algorithmic studies."
     ],
     tags: ["PyTorch", "TorchAudio", "Edge AI", "ONNX Quantization", "Computer Vision", "PRISMA"]
   }
@@ -69,43 +68,40 @@ export const RESEARCH_EXPERIENCE: ResearchItem[] = [
 export const FEATURED_PROJECTS: Project[] = [
   {
     title: "Momo Developer Workstation",
-    tagline: "Autonomous Multi-Surface Systems Orchestrator & Coding Studio",
-    description: "An autonomous developer workspace and system orchestrator. Features direct Linux kernel /dev/uinput Wayland virtual input drivers, multi-tier fallback LLM gateway routing, ReAct agent loops with self-healing compiler verification, and cognitive SQLite FTS5 BM25 memory distillation.",
+    tagline: "Autonomous Systems Orchestrator & ReAct Studio",
+    description: "Multi-surface autonomous coding workstation with direct Linux /dev/uinput Wayland kernel drivers, multi-tier fallback LLM routing, and native Android companion.",
     category: "Systems & AI",
     tags: ["Python", "FastAPI", "React 19", "Wayland /dev/uinput", "SQLite FTS5", "Android Material 3"],
     metrics: [
-      "Zero-sudo Wayland kernel automation via Python evdev",
+      "Zero-sudo Wayland input automation via Python evdev",
       "Multi-tier LLM gateway with automated failover",
-      "Asynchronous SQLite FTS5 cognitive memory distillation",
-      "Full companion parity across Linux, Android, and Web"
+      "Asynchronous SQLite FTS5 BM25 memory distillation"
     ],
     githubUrl: "https://github.com/AquaGecko-M/assistant",
     featured: true,
   },
   {
     title: "AWS Sokrates Agentic AI",
-    tagline: "Industrial Manufacturing Anomaly Resolution Workflow",
-    description: "An agentic AI pipeline engineered for the AWS Sokrates Hackathon 2026 (Binus). Designed to autonomously ingest telemetry, isolate industrial anomalies, and coordinate automated root-cause resolutions across manufacturing plants in Indonesia.",
+    tagline: "Industrial Anomaly Resolution Workflow",
+    description: "Autonomous multi-agent pipeline for AWS Sokrates Hackathon '26 (Binus), detecting and remediating manufacturing telemetry anomalies in Indonesia.",
     category: "Systems & AI",
     tags: ["Python", "AWS Cloud", "Multi-Agent Systems", "Industrial AI", "FastAPI"],
     metrics: [
-      "Autonomous triage and multi-step root-cause analysis",
-      "Cloud-native architecture designed for manufacturing scale",
-      "Telemetry anomaly classification"
+      "Autonomous incident triage and multi-step root-cause analysis",
+      "Cloud-native architecture designed for manufacturing scale"
     ],
     githubUrl: "https://github.com/AquaGecko-M/Hackhathon-2026-Aws-Sokrates-Binus",
     featured: true,
   },
   {
     title: "Winson Galon Distribution",
-    tagline: "Water Depot Distribution Web Platform & Admin CMS",
-    description: "A production full-stack web application and content management system built for Winson Galon, an operational water depot distribution enterprise. Built with real-time debounced AJAX search, secure session-based authentication, administrative inventory control, and RESTful endpoints.",
+    tagline: "Water Depot Web Platform & Admin CMS",
+    description: "Production full-stack web platform with real-time debounced AJAX search, session-authenticated admin dashboard, and RESTful inventory endpoints.",
     category: "Full-Stack",
     tags: ["PHP (PDO)", "MySQL", "JavaScript / AJAX", "Bootstrap 5", "REST API", "Apache"],
     metrics: [
-      "Real-time debounced AJAX catalog search without reload",
-      "Session-authenticated administrative CRUD dashboard",
-      "Dynamic RESTful JSON endpoints for client consumption"
+      "Real-time debounced AJAX search without page reloads",
+      "Session-authenticated administrative CRUD dashboard"
     ],
     githubUrl: "https://github.com/AquaGecko-M/winson-galon",
     featured: true,
@@ -113,13 +109,12 @@ export const FEATURED_PROJECTS: Project[] = [
   {
     title: "SnapBudget",
     tagline: "Mobile Cashflow & Expense Management",
-    description: "A native Android mobile application built in Kotlin focused on transparent cashflow tracking, budgeting categorization, and family expense reporting.",
+    description: "Native Android application built in Kotlin with Jetpack Compose for offline-first cashflow tracking and family expense reporting.",
     category: "Mobile",
     tags: ["Kotlin", "Android SDK", "Jetpack Compose", "Material 3", "SQLite"],
     metrics: [
-      "100% Native Kotlin architecture",
-      "Offline-first local persistence",
-      "Intuitive Material 3 user experience"
+      "100% Native Kotlin architecture with Material 3 UX",
+      "Offline-first local SQLite persistence"
     ],
     githubUrl: "https://github.com/AquaGecko-M/SnapBudget",
     featured: false,
@@ -129,30 +124,28 @@ export const FEATURED_PROJECTS: Project[] = [
 export const GAME_PROJECTS: Project[] = [
   {
     title: "DeNeLauSe",
-    tagline: "Arcade Survival & Mechanics Laboratory",
-    description: "An interactive arcade survival game built in Java Greenfoot exploring core Object-Oriented Design patterns, collision physics loops, state logic, and customized keyboard/mouse input controllers.",
+    tagline: "Arcade Survival & Mechanics Lab",
+    description: "Interactive arcade survival game exploring Java OOP design patterns, collision physics loops, and real-time input handlers.",
     category: "Game Dev",
-    tags: ["Java", "Greenfoot Engine", "OOP Patterns", "Game Physics", "Arcade"],
+    tags: ["Java", "Greenfoot", "OOP Patterns", "Game Physics", "Arcade"],
     githubUrl: "https://github.com/AquaGecko-M/TESTOOP_1",
     liveUrl: "https://www.greenfoot.org/scenarios/35760",
     metrics: [
       "Published live scenario on Greenfoot gallery",
-      "Full Java OOP architecture with custom collision logic",
-      "Real-time keyboard and mouse event dispatching"
+      "Object-oriented architecture with collision math"
     ],
     featured: true,
   },
   {
     title: "What Was Forgotten",
     tagline: "Atmospheric 2D Narrative Adventure",
-    description: "An indie passion game project built with GameMaker Studio, exploring custom finite state machines, particle systems, environmental storytelling, and dynamic platformer physics.",
+    description: "Indie passion game project built in GameMaker Studio featuring custom finite state machines, particle systems, and platformer physics.",
     category: "Game Dev",
     tags: ["GameMaker", "GML", "State Machines", "Level Design", "Indie Dev"],
     githubUrl: "https://github.com/AquaGecko-M/GameProject_WWF",
     metrics: [
-      "Custom character state machine architecture",
-      "Handcrafted atmospheric level design",
-      "Optimized 2D sprite rendering loop"
+      "Character state machine architecture & 2D physics",
+      "Handcrafted atmospheric visual design"
     ],
     featured: false,
   }
@@ -161,24 +154,24 @@ export const GAME_PROJECTS: Project[] = [
 export const SKILL_CATEGORIES: SkillCategory[] = [
   {
     name: "AI & Machine Learning",
-    description: "Deep learning model training, edge quantization, and multimodal inference.",
+    description: "Deep learning training, edge quantization, and multimodal models.",
     skills: [
       { name: "PyTorch", highlight: true },
       { name: "TorchAudio", highlight: true },
-      { name: "OpenCV / Computer Vision", highlight: true },
-      { name: "ONNX Runtime & INT8 Quantization", highlight: true },
-      { name: "ReAct Agent Frameworks" },
-      { name: "SQLite FTS5 / Vector Search" },
-      { name: "PRISMA Methodology" },
+      { name: "OpenCV / Vision", highlight: true },
+      { name: "ONNX / INT8 Quantization", highlight: true },
+      { name: "ReAct Agents" },
+      { name: "SQLite FTS5" },
+      { name: "PRISMA" },
     ]
   },
   {
     name: "Systems & Backend",
-    description: "Concurreny, OS kernel automation, and production APIs.",
+    description: "Concurrency, OS kernel automation, and production APIs.",
     skills: [
       { name: "Python (FastAPI, Asyncio)", highlight: true },
-      { name: "Linux Kernel (/dev/uinput, evdev)", highlight: true },
-      { name: "Wayland / KDE Plasma Architecture" },
+      { name: "Linux /dev/uinput (evdev)", highlight: true },
+      { name: "Wayland / KDE Plasma" },
       { name: "PHP & MySQL (PDO)", highlight: true },
       { name: "Debian Linux Administration" },
       { name: "WebSockets & REST APIs" },
@@ -188,7 +181,7 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
   },
   {
     name: "Mobile & Frontend",
-    description: "Native mobile clients and high-performance web interfaces.",
+    description: "Native mobile clients and responsive web interfaces.",
     skills: [
       { name: "Kotlin (Android SDK)", highlight: true },
       { name: "Jetpack Compose & Material 3", highlight: true },
@@ -201,7 +194,7 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
   },
   {
     name: "Languages & Tools",
-    description: "Primary programming languages and developer toolchains.",
+    description: "Core programming languages and developer toolchains.",
     skills: [
       { name: "Python", highlight: true },
       { name: "Kotlin", highlight: true },
@@ -222,11 +215,10 @@ export const EDUCATION_DATA = {
   period: "2023 — Present (Semester 5)",
   coursework: [
     "Computer Vision & Digital Image Processing",
-    "Expert Systems & Decision Support Systems (DSS)",
+    "Expert Systems & Decision Support Systems",
     "Bioinformatics",
     "Data Mining & Machine Learning",
     "Mobile Device Programming (Android)",
-    "Research Methodology",
     "Object-Oriented Programming (Java)"
   ]
 };
